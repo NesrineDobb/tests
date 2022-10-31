@@ -7,7 +7,7 @@ JDK 15
 1. Getting started
 
 1.1 Retrieve Sources:
-$ git clone https://github.com/NesrineDobb/tests/codingchallenge.git
+$ git clone https://github.com/NesrineDobb/tests/tree/master/codingchallenge.git
 
 -Make sure there is no application running on 8080
 -Build the application using mvn clean install
