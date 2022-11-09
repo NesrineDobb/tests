@@ -30,6 +30,18 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+  
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    
+</dependency>
+
+		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
@@ -45,6 +57,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>javax.money</groupId>
+    <artifactId>money-api</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.javamoney.moneta</groupId>
+    <artifactId>moneta-core</artifactId>
+    <version>1.4.2</version>
+</dependency>
+<dependency>
+    <groupId>org.javamoney.moneta</groupId>
+    <artifactId>moneta-convert-ecb</artifactId>
+    <version>1.4.2</version>
+</dependency>
 	</dependencies>
 
 	<build>
